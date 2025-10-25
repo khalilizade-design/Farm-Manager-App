@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Grant execute permission for gradlew
-        run: chmod +x ./app/gradlew
+        run: chmod +x ./app/build.gradle
 
       - name: Build Debug APK
         working-directory: ./app
