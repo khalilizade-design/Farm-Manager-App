@@ -1,0 +1,2 @@
+rootProject.name = "مدیریت دامپروری"
+include ':app'
